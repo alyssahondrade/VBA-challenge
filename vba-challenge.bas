@@ -34,10 +34,17 @@ Sub AnnualSummary():
     While (Not IsEmpty(Cells(counter, 1).Value))
         ticker_name = Cells(counter, 1).Value ' assign ticker_name
         Cells(ticker_count, 9).Value = ticker_name ' set I-column cells as unique tickers
-        Debug.Print (ticker_name)
+
+        Dim within_ticker As Integer
+        within_ticker = 0
         While (ticker_name = Cells(counter, 1).Value)
+            If (within_ticker = 0) Then
+                open_price = Cells(counter, 3).Value ' because this is the first row of new ticker
+            End If
+            within_ticker = within_ticker + 1 ' loop through rest, otherwise open_price will keep updating
             counter = counter + 1
         Wend
+        Cells(ticker_count, 10).Value = open_price ' set just before ticker_count update
         ticker_count = ticker_count + 1 ' increment unique ticker, new since exited inner while loop
         counter = counter + 1 ' go to the next row
     Wend
