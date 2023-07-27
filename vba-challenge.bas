@@ -52,6 +52,35 @@ Sub AnnualSummary():
         ticker_count = ticker_count + 1 ' increment unique ticker, new since exited inner while loop
     Wend
 
+    ' BONUS
+    Dim greatest_increase As Double
+    Dim greatest_decrease As Double
+    Dim greatest_volume As LongLong
+    
+    Dim max_count As Integer
+    max_count = 2
+    
+    greatest_increase = 0
+    greatest_decrease = 0
+    greatest_volume = 0
+    
+    While (Not IsEmpty(Cells(max_count, 9).Value))
+        If Cells(max_count, 13).Value > greatest_increase Then
+            greatest_increase = Cells(max_count, 13).Value
+            Cells(2, 22).Value = FormatPercent(greatest_increase, 2)
+            Cells(2, 21).Value = Cells(max_count, 9).Value
+        ElseIf Cells(max_count, 13).Value < greatest_decrease Then
+            greatest_decrease = Cells(max_count, 13).Value
+            Cells(3, 22).Value = FormatPercent(greatest_decrease, 2)
+            Cells(3, 21).Value = Cells(max_count, 9).Value
+        ElseIf Cells(max_count, 14).Value > greatest_volume Then
+            greatest_volume = Cells(max_count, 14).Value
+            Cells(4, 22).Value = greatest_volume
+            Cells(4, 21).Value = Cells(max_count, 9).Value
+        End If
+        max_count = max_count + 1
+    Wend
+
     ' Use for while loop, condition: 'ticker_name' not empty, OR for/for each loop - just need last cell row
     ' Get 'ticker_name' from each row
     ' For the first, 'ticker_name' = 'hold'. For the rest, compare 'ticker_name' to hold'
