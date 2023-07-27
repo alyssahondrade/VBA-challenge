@@ -16,6 +16,7 @@ Sub AnnualSummary():
     Dim year_change As Double
     Dim percent_change As Double
     Dim total_vol As Long
+    total_vol = 0
 
     Dim ticker As Range
     For Each ticker In Range("A1:A23000").Cells
@@ -24,6 +25,22 @@ Sub AnnualSummary():
             Exit For
         End If
     Next ticker
+
+    Dim counter As Integer ' counter to get all rows
+    counter = 2 ' since start at A2
+
+    Dim ticker_count As Integer ' counts unique ticker_names
+    ticker_count = 2
+    While (Not IsEmpty(Cells(counter, 1).Value))
+        ticker_name = Cells(counter, 1).Value ' assign ticker_name
+        Cells(ticker_count, 9).Value = ticker_name ' set I-column cells as unique tickers
+        Debug.Print (ticker_name)
+        While (ticker_name = Cells(counter, 1).Value)
+            counter = counter + 1
+        Wend
+        ticker_count = ticker_count + 1 ' increment unique ticker, new since exited inner while loop
+        counter = counter + 1 ' go to the next row
+    Wend
 
     ' Use for while loop, condition: 'ticker_name' not empty, OR for/for each loop - just need last cell row
     ' Get 'ticker_name' from each row
