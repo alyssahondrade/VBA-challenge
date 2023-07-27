@@ -47,6 +47,8 @@ Sub AnnualSummary():
         Wend
         Cells(ticker_count, 10).Value = open_price ' set just before ticker_count update
         Cells(ticker_count, 11).Value = close_price
+        Cells(ticker_count, 12).Value = close_price - open_price
+        Cells(ticker_count, 13).Value = FormatPercent((open_price - close_price) / open_price)
         ticker_count = ticker_count + 1 ' increment unique ticker, new since exited inner while loop
         counter = counter + 1 ' go to the next row
     Wend
