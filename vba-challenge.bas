@@ -42,9 +42,11 @@ Sub AnnualSummary():
                 open_price = Cells(counter, 3).Value ' because this is the first row of new ticker
             End If
             within_ticker = within_ticker + 1 ' loop through rest, otherwise open_price will keep updating
+            close_price = Cells(counter, 6).Value ' always the last price before exiting while loop
             counter = counter + 1
         Wend
         Cells(ticker_count, 10).Value = open_price ' set just before ticker_count update
+        Cells(ticker_count, 11).Value = close_price
         ticker_count = ticker_count + 1 ' increment unique ticker, new since exited inner while loop
         counter = counter + 1 ' go to the next row
     Wend
