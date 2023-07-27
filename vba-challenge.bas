@@ -8,7 +8,15 @@ Sub AnnualSummary():
     ' 5) year_change variable
     ' 6) percent_change variable
     ' 7) total_vol variable
-    
+
+    Dim ticker_name As String
+    Dim hold_ticker As String
+    Dim open_price As Double
+    Dim close_price As Double
+    Dim year_change As Double
+    Dim percent_change As Double
+    Dim total_vol As Long
+
     ' Use for while loop, condition: 'ticker_name' not empty, OR for/for each loop - just need last cell row
     ' Get 'ticker_name' from each row
     ' For the first, 'ticker_name' = 'hold'. For the rest, compare 'ticker_name' to hold'
