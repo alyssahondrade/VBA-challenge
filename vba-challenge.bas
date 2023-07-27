@@ -12,7 +12,7 @@ Sub AnnualSummary():
     Dim ticker_name As String
     Dim open_price As Double
     Dim close_price As Double
-    Dim total_vol As Long
+    Dim total_vol As LongLong
 
     Dim ticker As Range
     For Each ticker In Range("A1:A23000").Cells
@@ -36,6 +36,7 @@ Sub AnnualSummary():
         within_ticker = 0
         total_vol = 0
         While (ticker_name = Cells(counter, 1).Value)
+            total_vol = total_vol + Cells(counter, 7).Value
             If (within_ticker = 0) Then
                 open_price = Cells(counter, 3).Value ' because this is the first row of new ticker
             End If
@@ -47,6 +48,7 @@ Sub AnnualSummary():
         Cells(ticker_count, 11).Value = close_price
         Cells(ticker_count, 12).Value = close_price - open_price
         Cells(ticker_count, 13).Value = FormatPercent((open_price - close_price) / open_price)
+        Cells(ticker_count, 14).Value = total_vol
         ticker_count = ticker_count + 1 ' increment unique ticker, new since exited inner while loop
     Wend
 
