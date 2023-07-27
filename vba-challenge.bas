@@ -17,6 +17,14 @@ Sub AnnualSummary():
     Dim percent_change As Double
     Dim total_vol As Long
 
+    Dim ticker As Range
+    For Each ticker In Range("A1:A23000").Cells
+        If IsEmpty(ticker) Then
+            MsgBox ("This row is empty" & ticker.Address)
+            Exit For
+        End If
+    Next ticker
+
     ' Use for while loop, condition: 'ticker_name' not empty, OR for/for each loop - just need last cell row
     ' Get 'ticker_name' from each row
     ' For the first, 'ticker_name' = 'hold'. For the rest, compare 'ticker_name' to hold'
