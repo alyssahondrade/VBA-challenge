@@ -47,7 +47,16 @@ Sub AnnualSummary():
         Cells(ticker_count, 11).Value = FormatPercent((close_price - open_price) / open_price)
         Cells(ticker_count, 12).Value = total_vol
         
+        ' Conditional formatting
+        Dim yearly_change As Double
+        yearly_change = Cells(ticker_count, 10).Value
+        If (yearly_change > 0) Then
+            Cells(ticker_count, 10).Interior.ColorIndex = 4
+        Else
+            Cells(ticker_count, 10).Interior.ColorIndex = 3
         ticker_count = ticker_count + 1 ' increment unique ticker
+        End If
+
     Wend
     
     ' Bonus
@@ -83,3 +92,4 @@ Sub AnnualSummary():
     Wend
     
 End Sub
+
