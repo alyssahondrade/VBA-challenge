@@ -54,8 +54,9 @@ Sub AnnualSummary():
             Cells(ticker_count, 10).Interior.ColorIndex = 4
         Else
             Cells(ticker_count, 10).Interior.ColorIndex = 3
-        ticker_count = ticker_count + 1 ' increment unique ticker
         End If
+
+        ticker_count = ticker_count + 1 ' increment unique ticker
 
     Wend
     
