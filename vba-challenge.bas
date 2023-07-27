@@ -22,10 +22,10 @@ Sub AnnualSummary():
         End If
     Next ticker
 
-    Dim counter As Integer ' counter to get all rows
+    Dim counter As Long ' counter to get all rows
     counter = 2 ' since start at A2
 
-    Dim ticker_count As Integer ' counts unique ticker_names
+    Dim ticker_count As Long ' counts unique ticker_names
     ticker_count = 2
 
     While (Not IsEmpty(Cells(counter, 1).Value))
@@ -47,7 +47,7 @@ Sub AnnualSummary():
         Cells(ticker_count, 10).Value = open_price ' set just before ticker_count update
         Cells(ticker_count, 11).Value = close_price
         Cells(ticker_count, 12).Value = close_price - open_price
-        Cells(ticker_count, 13).Value = FormatPercent((open_price - close_price) / open_price)
+        Cells(ticker_count, 13).Value = FormatPercent((close_price - open_price) / open_price)
         Cells(ticker_count, 14).Value = total_vol
         ticker_count = ticker_count + 1 ' increment unique ticker, new since exited inner while loop
     Wend
