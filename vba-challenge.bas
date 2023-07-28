@@ -3,7 +3,6 @@ Sub AnnualSummary()
     
     ' Loop through all the sheets
     For Each fy In Worksheets
-        
         Dim ticker_name As String
         Dim open_price As Double
         Dim close_price As Double
@@ -108,8 +107,6 @@ Sub AnnualSummary()
         greatest_volume = 0
         
         For greatest_counter = 2 To last_unique
-        
-            ' Get current ticker
             get_ticker = fy.Cells(greatest_counter, 9).Value
     
             ' Check percent_change column, single if-statement since mutually exclusive
@@ -128,6 +125,7 @@ Sub AnnualSummary()
                 ' Set new greatest_decrease and get ticker
                 fy.Range("Q3").Value = FormatPercent(greatest_decrease)
                 fy.Range("P3").Value = get_ticker
+                
             End If
             
             ' Find the greatest total volume
@@ -141,7 +139,8 @@ Sub AnnualSummary()
             End If
             
         Next greatest_counter
-            
+        
+        ' Autofit column formatting
         fy.Range("A:Q").Columns.AutoFit
         
     Next fy
