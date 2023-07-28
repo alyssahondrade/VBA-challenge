@@ -16,14 +16,14 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
 ### Introduction
 #### Goal
 The goal of the project is to create a script that summarises a list of stock data to acquire the following:
-    - Yearly change, from the opening price at the start of the year, to the closing price at the end of the year.
-    - Percent change (as above with yearly change)
-    - Total stock volume
+1. Yearly change, from the opening price at the start of the year, to the closing price at the end of the year.
+2. Percent change (as above with yearly change)
+3. Total stock volume
 
 As well as the calculated values of the summarised results:
-    - Greatest percentage increase
-    - Greatest percentage decrease
-    - Greatest total stock volume
+1. Greatest percentage increase
+2. Greatest percentage decrease
+3. Greatest total stock volume
 
 #### Source code
 The source code for this project is **vba-challenge.bas**.
