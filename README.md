@@ -55,8 +55,8 @@ Initial testing for the code was conducted on **alphabetical_testing.xlsx** (ava
     - What relevant equations are required (i.e. yearly change and percent change)?
 4. Staged Process
     1. Find the last row of the spreadsheet.
-        1. Initial method: while loop and **Not IsEmpty()**
-        2. Final method: for loop and comparing an increment ahead
+        1. **Initial method**: while loop and `Not IsEmpty()` as the condition.
+        2. **Final method**: for loop and comparing an increment ahead.
     2. Loop through each row and get the unique ticker name.
     3. 
 
