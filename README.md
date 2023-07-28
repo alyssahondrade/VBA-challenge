@@ -48,16 +48,19 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
     - Each spreadsheet had a different number of rows, meaning a function is required to either.
           - Loop through until the first "empty" row is found.
           - Find the last row for each sheet.
+      
 2. Prior to writing the VBA script, results were manually calculated in the initial test file to compare against script output.
     - Confirmed the number of unique tickers using `Data > Remove Duplicates` function.
     - Used `SUMIF()` to get the total volume for each ticker.
     - Manually calculated samples of yearly change by referencing cells.
+      
 3. Pseudocode produced to identify strategy:
     - What variables are required? What data type for each?
     - What outputs are required?
     - What loop method is appropriate to acquire summarised results?
     - What needs to be incremented through?
     - What relevant equations are required (i.e. yearly change and percent change)?
+      
 4. Staged Process
     1. Find the last row of the spreadsheet.
         1. Initial method: while-loop and `Not IsEmpty()` as the condition.
