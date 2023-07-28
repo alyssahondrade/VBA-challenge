@@ -21,8 +21,8 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
 
 ## Introduction
 ### Goal
-The goal of the project is to create a script that summarises a list of stock data to acquire the following:
-1. Yearly change, from the opening price at the start of the year, to the closing price at the end of the year.
+The goal of the project is to create a script that summarises a list of stock data to get the following:
+1. Yearly change, from the opening price at the start of the year, to the closing price at the end of the year
 2. Percent change (as above with yearly change)
 3. Total stock volume
 
@@ -38,21 +38,21 @@ The source code for this project is [`vba-challenge.bas`](https://github.com/aly
 VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
 
 ### Dataset
-Dataset was created by Trilogy Education Services (2U Inc. brand)
+The dataset was created by Trilogy Education Services (2U Inc. brand).
 
 Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](https://github.com/alyssahondrade/VBA-challenge/blob/main/alphabetical_testing.xlsx) (available in the repository), with the final testing conducted on `multiple_year_stock_data.xlsx` (not provided due to file size).
 
 ## Approach
 1. Understand the provided dataset prior to conducting any data wrangling. The following observations were made: 
     - Multiple spreadsheets with identically structured data, meaning the code would need to be looped for all spreadsheets.
-    - Each spreadsheet had a different number of rows, meaning a function is required to either.
+    - Each spreadsheet had a different number of rows, meaning a function is required to either:
         - Loop through until the first "empty" row is found.
         - Find the last row for each sheet.
       
 2. Prior to writing the VBA script, results were manually calculated in the initial test file to compare against script output.
-    - Confirmed the number of unique tickers using `Data > Remove Duplicates` function.
+    - Confirmed the number of unique tickers using `Data > Remove Duplicates`.
     - Used `SUMIF()` to get the total volume for each ticker.
-    - Manually calculated samples of yearly change by referencing cells.
+    - Manually calculated samples of yearly change by referencing cells (i.e. the first 3 unique tickers).
       
 3. Pseudocode produced to identify strategy:
     - What variables are required? What data type for each?
@@ -70,8 +70,8 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
     4. Get the correct value for `close_price`.
     5. Calculate and set `yearly_change` and `percent_change`.
     6. Write code for calculated values.
-       1. If-block for `greatest_increase` and `greatest_decrease`, due to mutual exclusivity.
-       2. If-block for `total_greatest_volume`.
+       1. An if-block for `greatest_increase` and `greatest_decrease`, due to mutual exclusivity.
+       2. An if-block for `total_greatest_volume`.
     7. Conditional formatting on `yearly_change` and `percent_change` columns.
     8. Add formatting and headings.
     9. Alter the code to run for multiple spreadsheets, updating required references (i.e. `fy.Range()`).
@@ -81,6 +81,7 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
 
 ## Results
 Screenshots of the results, using the final test data, are given below:
+
 ### Analysis Results (2018)
 ![Analysis Results (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Analysis%20Results.png)
 
