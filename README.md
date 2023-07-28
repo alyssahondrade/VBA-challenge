@@ -72,11 +72,10 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
 
 ### Results
 Screenshots of the results, using the final test data, are given below:
-(image_1: Analysis Results (2018))
-(image_2: Calculated Values (2018))
-(image_3: Calculated Values (2019))
-(image_4: Calculated Values (2020))
-> NOTE: Upload screenshots to repository and use relative links to get on README
+![Analysis Results (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Analysis%20Results.png)
+![Calculated Values (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202018.png)
+![Calculated Values (2019)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202019.png)
+![Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202020.png)
 
 ### References
 The for-loop concept incrementing one counter ahead, and the equation to find the last row was derived from "Credit Charges" activity in Week 2, Day 3 of the bootcamp. The original solution utilised a while-loop.
