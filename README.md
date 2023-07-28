@@ -3,13 +3,13 @@ Module 2 Challenge - UWA/edX Data Analytics Bootcamp
 
 (( link to github repository ))
 
-##Table of Contents
+## Table of Contents
 1. Introduction
 2. Approach
 3. Test Files and Results
 4. References
 
-###Introduction
+### Introduction
 The goal of the project is to create a script that summarises a list of stock data to acquire the following:
 - Yearly change, from the opening price at the start of the year, to the closing price at the end of the year.
 - Percent change (as above with yearly change)
@@ -20,18 +20,18 @@ As well as the calculated values of the summarised results:
 - Greatest percentage decrease
 - Greatest total stock volume
 
-####Source code
+#### Source code
 The source code for this project is **vba-challenge.bas**.
 
-####Technology
+#### Technology
 VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
 
-####Dataset
+#### Dataset
 Dataset was created by Trilogy Education Services (2U Inc. brand)
 
 Initial testing for the code was conducted on **alphabetical_testing.xlsx** (available in the repository), with the final testing conducted on **multiple_year_stock_data.xlsx** (not provided due to file size).
 
-###Approach
+### Approach
 > NOTE: Summarise Module 2 Challenge notes
 1. Dataset already provided, needed to understand the data prior to conducting any data wrangling. The following observations were made: 
 - Multiple spreadsheets with identically structured data, meaning the code would need to be looped for all spreadsheets
@@ -54,7 +54,7 @@ Initial testing for the code was conducted on **alphabetical_testing.xlsx** (ava
     4.1.2 Final method: for loop and comparing an increment ahead
   4.2
 
-###Results
+### Results
 Screenshots of the results, using the final test data, are given below:
 (image_1: Analysis Results (2018))
 (image_2: Calculated Values (2018))
@@ -62,7 +62,7 @@ Screenshots of the results, using the final test data, are given below:
 (image_4: Calculated Values (2020))
 > NOTE: Upload screenshots to repository and use relative links to get on README
 
-###References
+### References
 The **for loop** concept incrementing one counter ahead, and the equation to find the last row was derived from "Credit Charges" activity in Week 2, Day 3 of the bootcamp. The original solution (as per vba-challenge.bas history) utilised a while loop.
 
 > NOTE: Gather all links accessed
