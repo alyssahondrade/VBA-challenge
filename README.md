@@ -16,6 +16,8 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
     3. [Calculated Values (2019)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2019)
     4. [Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2020)
 5. [References](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#references)
+    1. [VBA Code](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#vba-code)
+    2. [README](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#readme)
 
 ### Introduction
 #### Goal
@@ -89,30 +91,30 @@ Screenshots of the results, using the final test data, are given below:
 ![Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202020.png)
 
 ### References
-The for-loop concept incrementing one counter ahead, and the equation to find the last row was derived from "Credit Charges" activity in Week 2, Day 3 of the bootcamp. The original solution utilised a while-loop.
+The for-loop concept incrementing one counter ahead, and the equation to find the last row was derived from activities in Week 2, Day 3 of the bootcamp.
 
 The following references were accessed to produce the source code.
 
 #### VBA Code
-[1] Check empty cell [https://excelchamps.com/vba/check-empty-cell/](https://excelchamps.com/vba/check-empty-cell/)
+- [1] Check empty cell [https://excelchamps.com/vba/check-empty-cell/](https://excelchamps.com/vba/check-empty-cell/)
 
-[2] Check cell address [https://stackoverflow.com/questions/47515141/cell-address-in-a-loop](https://stackoverflow.com/questions/47515141/cell-address-in-a-loop)
+- [2] Check cell address [https://stackoverflow.com/questions/47515141/cell-address-in-a-loop](https://stackoverflow.com/questions/47515141/cell-address-in-a-loop)
 
-[3] While-Wend statement [https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/whilewend-statement](https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/whilewend-statement)
+- [3] While-Wend statement [https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/whilewend-statement](https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/whilewend-statement)
 
-[4] Format to Percentage [https://excelchamps.com/vba/functions/formatpercent/](https://excelchamps.com/vba/functions/formatpercent/)
+- [4] Format to Percentage [https://excelchamps.com/vba/functions/formatpercent/](https://excelchamps.com/vba/functions/formatpercent/)
 
-[5] Data Type Summary [https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary]([https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary)
+- [5] Data Type Summary [https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary]([https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary)
 
-[6] Background Colours [https://www.excel-easy.com/vba/examples/background-colors.html](https://www.excel-easy.com/vba/examples/background-colors.html)
+- [6] Background Colours [https://www.excel-easy.com/vba/examples/background-colors.html](https://www.excel-easy.com/vba/examples/background-colors.html)
 
 #### README
-[7] Information on README files [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files)
+- [7] Information on README files [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files)
 
-[8] Example of a Data Analysis Project README [https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md](https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md)
+- [8] Example of a Data Analysis Project README [https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md](https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md)
 
-[9] README file format for Data Analysis projects [https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US](https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US)
+- [9] README file format for Data Analysis projects [https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US](https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US)
 
-[10] README formatting [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [10] README formatting [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-[11] Markdown Handybilly [https://github.com/fefong/markdown_readme](https://github.com/fefong/markdown_readme)
+- [11] Markdown Handybilly [https://github.com/fefong/markdown_readme](https://github.com/fefong/markdown_readme)
