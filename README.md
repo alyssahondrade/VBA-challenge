@@ -16,14 +16,14 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
 ### Introduction
 #### Goal
 The goal of the project is to create a script that summarises a list of stock data to acquire the following:
-- Yearly change, from the opening price at the start of the year, to the closing price at the end of the year.
-- Percent change (as above with yearly change)
-- Total stock volume
+    - Yearly change, from the opening price at the start of the year, to the closing price at the end of the year.
+    - Percent change (as above with yearly change)
+    - Total stock volume
 
 As well as the calculated values of the summarised results:
-- Greatest percentage increase
-- Greatest percentage decrease
-- Greatest total stock volume
+    - Greatest percentage increase
+    - Greatest percentage decrease
+    - Greatest total stock volume
 
 #### Source code
 The source code for this project is **vba-challenge.bas**.
@@ -39,25 +39,26 @@ Initial testing for the code was conducted on **alphabetical_testing.xlsx** (ava
 ### Approach
 > NOTE: Summarise Module 2 Challenge notes
 1. Dataset already provided, needed to understand the data prior to conducting any data wrangling. The following observations were made: 
-- Multiple spreadsheets with identically structured data, meaning the code would need to be looped for all spreadsheets
-- Each spreadsheet had a different number of rows, meaning a function is required to either
-  - Loop through until the first "empty" row is found
-  - Find the last row for each sheet
+    - Multiple spreadsheets with identically structured data, meaning the code would need to be looped for all spreadsheets
+    - Each spreadsheet had a different number of rows, meaning a function is required to either
+          - Loop through until the first "empty" row is found
+          - Find the last row for each sheet
 2. Prior to writing the VBA script, results were manually calculated in the initial test file to compare against script output.
-- Confirmed the number of unique tickers using **Remove Duplicates** function
-- Used **SUMIF** to get the total volume for each ticker
-- Manually calculated samples of yearly change by referencing cells
+    - Confirmed the number of unique tickers using **Remove Duplicates** function
+    - Used **SUMIF** to get the total volume for each ticker
+    - Manually calculated samples of yearly change by referencing cells
 3. Pseudocode produced to identify strategy:
-- What variables are required? What data type for each?
-- What outputs are required?
-- What loop method is appropriate to acquire summarised results?
-- What needs to be incremented through?
-- What relevant equations are required (i.e. yearly change and percent change)?
+    - What variables are required? What data type for each?
+    - What outputs are required?
+    - What loop method is appropriate to acquire summarised results?
+    - What needs to be incremented through?
+    - What relevant equations are required (i.e. yearly change and percent change)?
 4. Staged Process
-  4.1 Find the last row of the spreadsheet.
-    4.1.1 Initial method: while loop and **Not IsEmpty()**
-    4.1.2 Final method: for loop and comparing an increment ahead
-  4.2
+    1. Find the last row of the spreadsheet.
+        1. Initial method: while loop and **Not IsEmpty()**
+        2. Final method: for loop and comparing an increment ahead
+    2. Loop through each row and get the unique ticker name.
+    3. 
 
 ### Results
 Screenshots of the results, using the final test data, are given below:
