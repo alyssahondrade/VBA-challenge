@@ -11,7 +11,11 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
     4. [Dataset](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#dataset)
 2. [Approach](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#approach)
 3. [Results](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#results)
-4. [References](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#references)
+    1. [Analysis Results (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#analysis-results-2018)
+    2. [Calculated Values (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2018)
+    3. [Calculated Values (2019)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2019)
+    4. [Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2020)
+5. [References](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#references)
 
 ### Introduction
 #### Goal
