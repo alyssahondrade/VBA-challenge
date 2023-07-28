@@ -118,16 +118,16 @@ Sub AnnualSummary()
                 greatest_increase = fy.Cells(greatest_counter, 11).Value
                 
                 ' Set new greatest_increase and get ticker
-                fy.Range("P2").Value = greatest_increase
-                fy.Range("Q2").Value = get_ticker
+                fy.Range("Q2").Value = FormatPercent(greatest_increase)
+                fy.Range("P2").Value = get_ticker
                 
             ElseIf (fy.Cells(greatest_counter, 11).Value < greatest_decrease) Then
                 ' Update the value
                 greatest_decrease = fy.Cells(greatest_counter, 11).Value
                 
                 ' Set new greatest_decrease and get ticker
-                fy.Range("P3").Value = FormatPercent(greatest_decrease)
-                fy.Range("Q3").Value = get_ticker
+                fy.Range("Q3").Value = FormatPercent(greatest_decrease)
+                fy.Range("P3").Value = get_ticker
             End If
             
             ' Find the greatest total volume
@@ -136,8 +136,8 @@ Sub AnnualSummary()
                 greatest_volume = fy.Cells(greatest_counter, 12).Value
                 
                 ' Set new greatest_volume and get ticker
-                fy.Range("P4").Value = greatest_volume
-                fy.Range("Q4").Value = get_ticker
+                fy.Range("Q4").Value = greatest_volume
+                fy.Range("P4").Value = get_ticker
             End If
             
         Next greatest_counter
