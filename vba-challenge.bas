@@ -2,6 +2,8 @@ Sub AnnualSummary()
     Dim ticker_name As String
     Dim open_price As Double
     Dim close_price As Double
+    Dim yearly_change As Double
+    Dim percent_change As Double
     Dim total_vol As LongLong
     
     ' Set headings
@@ -46,8 +48,25 @@ Sub AnnualSummary()
             total_vol = 0
             
             ' Calculate and set values
-            Cells(ticker_count, 10).Value = close_price - open_price
-            Cells(ticker_count, 11).Value = FormatPercent((close_price - open_price) / 100)
+            yearly_change = close_price - open_price
+            percent_change = (close_price - open_price) / open_price
+            
+            Cells(ticker_count, 10).Value = yearly_change
+            Cells(ticker_count, 11).Value = FormatPercent(percent_change)
+            
+            ' Conditional formatting
+            If (yearly_change > 0) Then
+                Cells(ticker_count, 10).Interior.ColorIndex = 4
+            Else
+                Cells(ticker_count, 10).Interior.ColorIndex = 3
+            End If
+            
+            If (percent_change > 0) Then
+                Cells(ticker_count, 11).Interior.ColorIndex = 4
+            Else
+                Cells(ticker_count, 11).Interior.ColorIndex = 3
+            End If
+            
             ticker_count = ticker_count + 1
             
         Else
@@ -60,7 +79,7 @@ Sub AnnualSummary()
             total_vol = total_vol + Cells(counter, 7).Value
             
         End If
-        
+            
     Next counter
     
     Range("A:Q").Columns.AutoFit
