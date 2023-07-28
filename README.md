@@ -19,8 +19,8 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
     1. [VBA Code](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#vba-code)
     2. [README](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#readme)
 
-### Introduction
-#### Goal
+## Introduction
+### Goal
 The goal of the project is to create a script that summarises a list of stock data to acquire the following:
 1. Yearly change, from the opening price at the start of the year, to the closing price at the end of the year.
 2. Percent change (as above with yearly change)
@@ -31,18 +31,18 @@ As well as the calculated values of the summarised results:
 2. Greatest percentage decrease
 3. Greatest total stock volume
 
-#### Source code
+### Source code
 The source code for this project is [`vba-challenge.bas`](https://github.com/alyssahondrade/VBA-challenge/blob/main/vba-challenge.bas).
 
-#### Technology
+### Technology
 VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
 
-#### Dataset
+### Dataset
 Dataset was created by Trilogy Education Services (2U Inc. brand)
 
 Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](https://github.com/alyssahondrade/VBA-challenge/blob/main/alphabetical_testing.xlsx) (available in the repository), with the final testing conducted on `multiple_year_stock_data.xlsx` (not provided due to file size).
 
-### Approach
+## Approach
 1. Understand the provided dataset prior to conducting any data wrangling. The following observations were made: 
     - Multiple spreadsheets with identically structured data, meaning the code would need to be looped for all spreadsheets.
     - Each spreadsheet had a different number of rows, meaning a function is required to either.
@@ -76,26 +76,26 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
        1. Update data type for counters to `Long` or `LongLong` as required.
        2. Confirm correct results and formatting in each spreadsheet.
 
-### Results
+## Results
 Screenshots of the results, using the final test data, are given below:
-#### Analysis Results (2018)
+### Analysis Results (2018)
 ![Analysis Results (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Analysis%20Results.png)
 
-#### Calculated Values (2018)
+### Calculated Values (2018)
 ![Calculated Values (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202018.png)
 
-#### Calculated Values (2019)
+### Calculated Values (2019)
 ![Calculated Values (2019)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202019.png)
 
-#### Calculated Values (2020)
+### Calculated Values (2020)
 ![Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202020.png)
 
-### References
+## References
 The for-loop concept incrementing one counter ahead, and the equation to find the last row was derived from activities in Week 2, Day 3 of the bootcamp.
 
 The following references were accessed to produce the source code.
 
-#### VBA Code
+### VBA Code
 - [1] Check empty cell [https://excelchamps.com/vba/check-empty-cell/](https://excelchamps.com/vba/check-empty-cell/)
 
 - [2] Check cell address [https://stackoverflow.com/questions/47515141/cell-address-in-a-loop](https://stackoverflow.com/questions/47515141/cell-address-in-a-loop)
@@ -108,7 +108,7 @@ The following references were accessed to produce the source code.
 
 - [6] Background Colours [https://www.excel-easy.com/vba/examples/background-colors.html](https://www.excel-easy.com/vba/examples/background-colors.html)
 
-#### README
+### README
 - [7] Information on README files [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files)
 
 - [8] Example of a Data Analysis Project README [https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md](https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md)
