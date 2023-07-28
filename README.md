@@ -26,7 +26,7 @@ As well as the calculated values of the summarised results:
 3. Greatest total stock volume
 
 #### Source code
-The source code for this project is **vba-challenge.bas**.
+The source code for this project is [`vba-challenge.bas`](https://github.com/alyssahondrade/VBA-challenge/blob/main/vba-challenge.bas).
 
 #### Technology
 VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
@@ -34,7 +34,7 @@ VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
 #### Dataset
 Dataset was created by Trilogy Education Services (2U Inc. brand)
 
-Initial testing for the code was conducted on **alphabetical_testing.xlsx** (available in the repository), with the final testing conducted on **multiple_year_stock_data.xlsx** (not provided due to file size).
+Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](https://github.com/alyssahondrade/VBA-challenge/blob/main/alphabetical_testing.xlsx) (available in the repository), with the final testing conducted on `multiple_year_stock_data.xlsx` (not provided due to file size).
 
 ### Approach
 > NOTE: Summarise Module 2 Challenge notes
@@ -44,8 +44,8 @@ Initial testing for the code was conducted on **alphabetical_testing.xlsx** (ava
           - Loop through until the first "empty" row is found
           - Find the last row for each sheet
 2. Prior to writing the VBA script, results were manually calculated in the initial test file to compare against script output.
-    - Confirmed the number of unique tickers using **Remove Duplicates** function
-    - Used **SUMIF** to get the total volume for each ticker
+    - Confirmed the number of unique tickers using `Data > Remove Duplicates` function
+    - Used `SUMIF()` to get the total volume for each ticker
     - Manually calculated samples of yearly change by referencing cells
 3. Pseudocode produced to identify strategy:
     - What variables are required? What data type for each?
