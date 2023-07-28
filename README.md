@@ -5,7 +5,7 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
 
 ## Table of Contents
 1. [Introduction](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#introduction)
-2. Approach
+2. [Approach](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#approach)
 3. Test Files and Results
 4. References
 
