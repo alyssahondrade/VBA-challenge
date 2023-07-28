@@ -5,9 +5,12 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
 
 ## Table of Contents
 1. [Introduction](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#introduction)
-2. [Approach](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#approach)
-3. Test Files and Results
-4. References
+    1.1 [Source Code](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#source-code)
+    1.2 [Technology](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#technology)
+    1.3 [Dataset](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#dataset)
+3. [Approach](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#approach)
+4. [Results](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#results)
+5. [References](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#references)
 
 ### Introduction
 The goal of the project is to create a script that summarises a list of stock data to acquire the following:
