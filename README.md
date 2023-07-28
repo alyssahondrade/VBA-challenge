@@ -4,7 +4,7 @@ Module 2 Challenge - UWA/edX Data Analytics Bootcamp
 Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
 
 ## Table of Contents
-1. [Introduction] (# Introduction)
+1. [Introduction](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#introduction)
 2. Approach
 3. Test Files and Results
 4. References
