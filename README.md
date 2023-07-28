@@ -91,19 +91,28 @@ Screenshots of the results, using the final test data, are given below:
 ### References
 The for-loop concept incrementing one counter ahead, and the equation to find the last row was derived from "Credit Charges" activity in Week 2, Day 3 of the bootcamp. The original solution utilised a while-loop.
 
+The following references were accessed to produce the source code.
+
 #### VBA Code
 [1] Check empty cell [https://excelchamps.com/vba/check-empty-cell/](https://excelchamps.com/vba/check-empty-cell/)
+
 [2] Check cell address [https://stackoverflow.com/questions/47515141/cell-address-in-a-loop](https://stackoverflow.com/questions/47515141/cell-address-in-a-loop)
+
 [3] While-Wend statement [https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/whilewend-statement](https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/whilewend-statement)
+
 [4] Format to Percentage [https://excelchamps.com/vba/functions/formatpercent/](https://excelchamps.com/vba/functions/formatpercent/)
+
 [5] Data Type Summary [https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary]([https://learn.microsoft.com/en-us/office/vba/language/reference/user-interface-help/data-type-summary)
+
 [6] Background Colours [https://www.excel-easy.com/vba/examples/background-colors.html](https://www.excel-easy.com/vba/examples/background-colors.html)
 
 #### README
 [7] Information on README files [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files)
-[8] Example of a Data Analysis Project README [https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md](https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md)
-[9] README file format for Data Analysis projects [https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US](https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US)
-[10] README formatting [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-[11] Markdown Handybilly [https://github.com/fefong/markdown_readme](https://github.com/fefong/markdown_readme)
 
-> NOTE: Gather all links accessed
+[8] Example of a Data Analysis Project README [https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md](https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md)
+
+[9] README file format for Data Analysis projects [https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US](https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US)
+
+[10] README formatting [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[11] Markdown Handybilly [https://github.com/fefong/markdown_readme](https://github.com/fefong/markdown_readme)
