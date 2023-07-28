@@ -72,9 +72,16 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
 
 ### Results
 Screenshots of the results, using the final test data, are given below:
+#### Analysis Results (2018)
 ![Analysis Results (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Analysis%20Results.png)
+
+#### Calculated Values (2018)
 ![Calculated Values (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202018.png)
+
+#### Calculated Values (2019)
 ![Calculated Values (2019)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202019.png)
+
+#### Calculated Values (2020)
 ![Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202020.png)
 
 ### References
