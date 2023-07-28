@@ -46,8 +46,8 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
 1. Understand the provided dataset prior to conducting any data wrangling. The following observations were made: 
     - Multiple spreadsheets with identically structured data, meaning the code would need to be looped for all spreadsheets.
     - Each spreadsheet had a different number of rows, meaning a function is required to either.
-          - Loop through until the first "empty" row is found.
-          - Find the last row for each sheet.
+        - Loop through until the first "empty" row is found.
+        - Find the last row for each sheet.
       
 2. Prior to writing the VBA script, results were manually calculated in the initial test file to compare against script output.
     - Confirmed the number of unique tickers using `Data > Remove Duplicates` function.
