@@ -74,10 +74,10 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
        2. An if-block for `total_greatest_volume`.
     7. Conditional formatting on `yearly_change` and `percent_change` columns.
     8. Add formatting and headings.
-    9. Alter the code to run for multiple spreadsheets, updating required references (i.e. `fy.Range()`).
+    9. Alter the code to run for multiple spreadsheets, updating required references (i.e. `fy.Range()` instead of `Range()`).
     10. Run the code on the final test data.
-       1. Update data type for counters to `Long` or `LongLong` as required.
-       2. Confirm correct results and formatting in each spreadsheet.
+        1. Update data type for counters to `Long` or `LongLong` as required.
+        2. Confirm correct results and formatting in each spreadsheet.
 
 ## Results
 Screenshots of the results, using the final test data, are given below:
