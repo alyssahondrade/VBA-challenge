@@ -11,10 +11,9 @@ Github repository at: https://github.com/alyssahondrade/VBA-challenge.git
     4. [Dataset](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#dataset)
 2. [Approach](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#approach)
 3. [Results](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#results)
-    1. [Analysis Results (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#analysis-results-2018)
-    2. [Calculated Values (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2018)
-    3. [Calculated Values (2019)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2019)
-    4. [Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2020)
+    1. [Calculated Values (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2018)
+    2. [Calculated Values (2019)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2019)
+    3. [Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#calculated-values-2020)
 5. [References](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#references)
     1. [VBA Code](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#vba-code)
     2. [README](https://github.com/alyssahondrade/VBA-challenge/blob/main/README.md#readme)
@@ -84,9 +83,6 @@ Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](http
 
 ## Results
 Screenshots of the results, using the final test data, are given below:
-
-### Analysis Results (2018)
-![Analysis Results (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Analysis%20Results.png)
 
 ### Calculated Values (2018)
 ![Calculated Values (2018)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202018.png)
