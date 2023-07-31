@@ -40,7 +40,10 @@ VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
 ### Dataset
 The dataset was created by Trilogy Education Services (2U Inc. brand).
 
-Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](https://github.com/alyssahondrade/VBA-challenge/blob/main/alphabetical_testing.xlsx) (available in the repository), with the final testing conducted on `multiple_year_stock_data.xlsx` (not provided due to file size).
+Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](https://github.com/alyssahondrade/VBA-challenge/blob/main/alphabetical_testing.xlsx), with the final testing conducted on `multiple_year_stock_data.xlsx` (not provided due to file size).
+
+## Repository Structure
+> Need to include repo structure, i.e. images, etc.
 
 ## Approach
 1. Understand the provided dataset prior to conducting any data wrangling. The following observations were made: 
