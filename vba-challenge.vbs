@@ -56,6 +56,7 @@ Sub AnnualSummary()
                 percent_change = (close_price - open_price) / open_price
                 
                 fy.Cells(ticker_count, 10).Value = yearly_change
+                fy.Cells(ticker_count, 10).NumberFormat = "0.00"
                 fy.Cells(ticker_count, 11).Value = FormatPercent(percent_change)
                 
                 ' Conditional formatting - yearly change
