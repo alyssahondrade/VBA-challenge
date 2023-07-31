@@ -118,7 +118,8 @@ Sub AnnualSummary()
                 greatest_increase = fy.Cells(greatest_counter, 11).Value
                 
                 ' Set new greatest_increase and get ticker
-                fy.Range("Q2").Value = FormatPercent(greatest_increase)
+                fy.Range("Q2").Value = greatest_increase
+                fy.Range("Q2").NumberFormat = "0.00%"
                 fy.Range("P2").Value = get_ticker
                 
             ElseIf (fy.Cells(greatest_counter, 11).Value < greatest_decrease) Then
@@ -126,7 +127,8 @@ Sub AnnualSummary()
                 greatest_decrease = fy.Cells(greatest_counter, 11).Value
                 
                 ' Set new greatest_decrease and get ticker
-                fy.Range("Q3").Value = FormatPercent(greatest_decrease)
+                fy.Range("Q3").Value = greatest_decrease
+                fy.Range("Q3").NumberFormat = "0.00%"
                 fy.Range("P3").Value = get_ticker
                 
             End If
