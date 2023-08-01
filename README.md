@@ -31,7 +31,10 @@ As well as the calculated values of the summarised results:
 3. Greatest total stock volume
 
 ### Source code
-The source code for this project is [`vba-challenge.bas`](https://github.com/alyssahondrade/VBA-challenge/blob/main/vba-challenge.bas).
+The source code for this project is [`vba-challenge.vbs`](https://github.com/alyssahondrade/VBA-challenge/blob/main/vba-challenge.vbs).
+
+### Repository Structure
+`Screenshots/` directory contains the screenshots of the results.
 
 ### Technology
 VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
@@ -40,9 +43,6 @@ VBA code was written using **Microsoft Excel for Mac** (Version 16.75.2).
 The dataset was created by Trilogy Education Services (2U Inc. brand).
 
 Initial testing for the code was conducted on [`alphabetical_testing.xlsx`](https://github.com/alyssahondrade/VBA-challenge/blob/main/alphabetical_testing.xlsx), with the final testing conducted on `multiple_year_stock_data.xlsx` (not provided due to file size).
-
-## Repository Structure
-> Need to include repo structure, i.e. images, etc.
 
 ## Approach
 1. Understand the provided dataset prior to conducting any data wrangling. The following observations were made: 
@@ -94,7 +94,9 @@ Screenshots of the results, using the final test data, are given below:
 ![Calculated Values (2020)](https://github.com/alyssahondrade/VBA-challenge/blob/main/Screenshots/Calculated%20Values%20-%202020.png)
 
 ## References
-The for-loop concept incrementing one counter ahead, and the equation to find the last row was derived from activities in Week 2, Day 3 of the bootcamp.
+Code derived from Week 2, Day 3 of the bootcamp:
+1. The for-loop concept incrementing one counter ahead.
+2. The equation to find the last row.
 
 The following references were accessed to produce the source code.
 
