@@ -111,13 +111,15 @@ The following references were accessed to produce the source code.
 
 - [6] Background Colours [https://www.excel-easy.com/vba/examples/background-colors.html](https://www.excel-easy.com/vba/examples/background-colors.html)
 
+- [7] Format to 2 decimal places [https://www.mrexcel.com/board/threads/vba-change-number-of-decimal-places-of-a-percentage.521221/](https://www.mrexcel.com/board/threads/vba-change-number-of-decimal-places-of-a-percentage.521221/)
+
 ### README
-- [7] Information on README files [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files)
+- [8] Information on README files [https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files](https://datamanagement.hms.harvard.edu/collect-analyze/documentation-metadata/readme-files)
 
-- [8] Example of a Data Analysis Project README [https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md](https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md)
+- [9] Example of a Data Analysis Project README [https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md](https://github.com/elizabethdaly/data-analysis-project/blob/master/README.md)
 
-- [9] README file format for Data Analysis projects [https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US](https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US)
+- [10] README file format for Data Analysis projects [https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US](https://skillsforall.com/course/data-analytics-essentials?courseLang=en-US)
 
-- [10] README formatting [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [11] README formatting [https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-- [11] Markdown Handybilly [https://github.com/fefong/markdown_readme](https://github.com/fefong/markdown_readme)
+- [12] Markdown Handybilly [https://github.com/fefong/markdown_readme](https://github.com/fefong/markdown_readme)
